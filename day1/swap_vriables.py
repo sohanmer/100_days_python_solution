@@ -1,0 +1,9 @@
+a = input()
+b = input()
+# Create a third variable to help switch the values
+c = a
+a = b
+b = c
+
+print("a: " + a)
+print("b: " + b)
