@@ -47,4 +47,3 @@ elif direction == "left":
     elif door == "yellow":
       print("You Win!")
       exit()
-
