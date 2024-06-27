@@ -2,7 +2,6 @@ from turtle import Turtle, Screen
 import random
 
 turtle = Turtle()
-turtle.color("red")
 screen = Screen()
 
 
