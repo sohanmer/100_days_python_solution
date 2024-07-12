@@ -42,6 +42,7 @@ def is_night():
         return True
     return False
 
+
 while True:
     time.sleep(60)
     if is_iss_overhead() and is_night():
