@@ -28,8 +28,8 @@ if will_rain:
 
     message = client.messages.create(
         body="Don't forget to carry your umbrella. It might rain heavily.☔",
-        from_='+12514511913',
-        to="+919761857002"
+        from_='<twilio_number>',
+        to='<your_number'
     )
 
     print(message.status)
