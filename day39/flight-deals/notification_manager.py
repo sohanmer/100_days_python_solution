@@ -3,8 +3,9 @@ from dotenv import load_dotenv
 from twilio.rest import Client
 
 load_dotenv()
-class NotificationManager:
 
+
+class NotificationManager:
     def __init__(self):
         self.client = Client(os.environ['TWILIO_SID'], os.environ["TWILIO_AUTH_TOKEN"])
 
